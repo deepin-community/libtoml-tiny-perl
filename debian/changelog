@@ -1,0 +1,47 @@
+libtoml-tiny-perl (0.15-1) unstable; urgency=medium
+
+  * Team upload
+
+  * Import upstream version 0.15.
+  * Declare compliance with Debian Policy 4.6.0
+
+ -- Florian Schlichting <fsfs@debian.org>  Sun, 19 Sep 2021 20:15:19 +0800
+
+libtoml-tiny-perl (0.11-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since stretch:
+    + Build-Depends-Indep: Drop versioned constraint on libmath-bigint-perl.
+    + libtoml-tiny-perl: Drop versioned constraint on libmath-bigint-perl in
+      Depends.
+
+  [ gregor herrmann ]
+  * Import upstream version 0.11.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.5.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 20 Feb 2021 21:36:38 +0100
+
+libtoml-tiny-perl (0.10-2) unstable; urgency=medium
+
+  * Source-only no-change re-upload.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 21 Sep 2020 19:26:01 +0200
+
+libtoml-tiny-perl (0.10-1) unstable; urgency=medium
+
+  * Import upstream version 0.10.
+  * Drop 0001-TOML-Tiny-Writer-Turn-DateTime-Format-RFC3339-into-a.patch.
+    Fixed (differently) in this new release.
+  * Remove Guillem Jover from Uploaders on his request.
+  * Add empty debian/tests/pkg-perl/syntax-skip to enable all checks in
+    autopkgtest's syntax.t.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 18 Sep 2020 15:10:46 +0200
+
+libtoml-tiny-perl (0.09-1) unstable; urgency=low
+
+  [ Guillem Jover & gregor herrmann ]
+  * Initial release. (Closes: #969781)
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 08 Sep 2020 17:28:50 +0200

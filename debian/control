@@ -1,0 +1,36 @@
+Source: libtoml-tiny-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libdatetime-format-iso8601-perl <!nocheck>,
+                     libdatetime-format-rfc3339-perl <!nocheck>,
+                     libmath-bigint-perl <!nocheck>,
+                     libtest-pod-perl <!nocheck>,
+                     libtest-simple-perl <!nocheck>,
+                     libtest2-suite-perl <!nocheck>,
+                     libtoml-parser-perl <!nocheck>,
+                     perl
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtoml-tiny-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtoml-tiny-perl.git
+Homepage: https://metacpan.org/release/TOML-Tiny
+Rules-Requires-Root: no
+
+Package: libtoml-tiny-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libmath-bigint-perl
+Recommends: libtypes-serialiser-perl
+Suggests: libdatetime-format-rfc3339-perl
+Description: minimal, pure perl TOML parser and serializer
+ TOML::Tiny implements a pure-perl parser and generator for the
+ TOML (https://github.com/toml-lang/toml) data format. It currently conforms
+ to TOML v5 (with a few caveats) with support for more recent changes in
+ pursuit of v6.
+ .
+ TOML::Tiny strives to maintain an interface compatible to the TOML and
+ TOML::Parser modules, and could even be used to override $TOML::Parser.
