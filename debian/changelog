@@ -1,3 +1,37 @@
+libtoml-tiny-perl (0.19-1) unstable; urgency=medium
+
+  * Import upstream version 0.19.
+  * Update years of upstream and packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 15 Feb 2025 21:56:16 +0100
+
+libtoml-tiny-perl (0.18-1) unstable; urgency=medium
+
+  * Import upstream version 0.18.
+  * Drop unneeded test dependency.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 08 Sep 2024 16:37:31 +0200
+
+libtoml-tiny-perl (0.17-1) unstable; urgency=medium
+
+  * Import upstream version 0.17.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.7.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 08 Jun 2024 00:05:55 +0200
+
+libtoml-tiny-perl (0.16-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Update standards version to 4.6.1, no changes needed.
+
+  [ gregor herrmann ]
+  * Import upstream version 0.16.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.6.2.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 21 Jun 2023 21:17:11 +0200
+
 libtoml-tiny-perl (0.15-1) unstable; urgency=medium
 
   * Team upload
